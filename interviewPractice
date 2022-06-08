@@ -1,0 +1,16 @@
+# find out the vitual and 'E'
+myList = [['E','E','E','B','B'],
+['E','B','E','B','E'],
+['E','B','E','B','E'],
+['B','B','B','B','B'],
+['E','B','E','B','E']]
+ 
+countE =0
+#loop each item in list
+for i in range(len(myList)):
+    for j in range(len(myList)):
+        if myList[i][j] != myList[i-1][j] and myList[i][j] != myList[i][j-1]:
+            print('not same')
+            countE +=1
+
+print(countE)
