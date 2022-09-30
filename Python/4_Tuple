@@ -1,0 +1,23 @@
+# difference with list 
+# tuple is immutable 
+
+my_tuple = ('pizza hub', 'kfc','MDL')
+for i in my_tuple:
+    print(i)
+
+print(my_tuple[0])
+
+# my_tuple[0] = '333'
+
+my_tup = (4,)
+print(my_tup)
+
+#overwriting
+my_tup = (4,5)
+
+print(my_tup)
+
+
+
+
+
